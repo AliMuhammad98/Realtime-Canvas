@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these custom styles below the Tailwind directives */
+html,
+body,
+#root {
+  @apply h-full w-full m-0 p-0 overflow-hidden;
+}
+
+body {
+  @apply bg-white;
+}
